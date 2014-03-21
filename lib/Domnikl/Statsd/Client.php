@@ -137,7 +137,7 @@ class Client
      *
      * @return void
      */
-    public function endTiming($key, $alternativeKey = null, $sampleRate = 1)
+    public function endTiming($key, $sampleRate = 1, $alternativeKey = null)
     {
         $end = gettimeofday(true);
 
